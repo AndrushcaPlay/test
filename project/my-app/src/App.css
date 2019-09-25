@@ -1,0 +1,90 @@
+body{
+  background-color: rgb(199, 114, 34);
+}
+
+.App {
+  text-align: center;
+  margin: auto;
+  width: 1200px;
+}
+
+.name-App {
+  margin-top: 100px;
+  color: rgb(227, 234, 235);
+  font-size: 74px;
+}
+
+.input-App input{
+  width: 400px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-left: 30px;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.close {
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: red;
+  font-size: 17px;
+  margin-top: 5px;
+  }
+
+  .now {
+    text-decoration: line-through;
+  }
+
+
+.result {
+  border: 2px solid rgb(72, 24, 202);
+  border-radius: 5px;
+  /* border-top: none; */
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  background: rgb(110, 181, 184);
+  /* box-shadow: 0 0 20px #fff; */
+  margin-bottom: 5px;
+}
+
+.result .text {
+  font-style: italic;
+  font-size: 24px;
+  font-weight: normal;
+
+}
+
+.Login_name {
+  margin-top: 300px;
+  font-size: 30px;
+}
+
+.login,.pass{
+  padding: 20px;
+}
+
+.login input,.pass input{
+  padding: 20px;
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.Login_button button {
+  width: 150px;
+  height: 40px;
+  background-color: rgb(44, 15, 206);
+  color: white;
+  cursor: pointer;
+}
+  
+
